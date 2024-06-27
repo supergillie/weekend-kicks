@@ -26,7 +26,7 @@
         .small-text {
             font-size: 10px; /* Smaller font size */
             color: #555;
-            margin-bottom: 10px; /* Less margin below */
+            margin-bottom: 5px; /* Adjusted margin below */
             text-align: right; /* Right-aligned text */
             width: 350px; /* Match the width of the sleeve image */
         }
@@ -42,14 +42,16 @@
             line-height: 1.4;
         }
         .lyrics h2 {
-            font-size: 14px;
-            margin: 0 0 10px 0; /* Less margin below the headline */
+            font-size: 16px; /* Larger headline */
+            margin: 0; /* No margin above and below */
+            text-align: left; /* Left-align headline */
         }
         audio {
-            margin: 10px 0; /* Less margin above and some below */
+            margin: 20px 0; /* More space above and below the player */
         }
         .buy-link {
-            margin-top: 20px;
+            font-size: 10px; /* Match the font size of the small text */
+            text-align: right; /* Right-aligned text */
             display: block;
             text-decoration: none;
             color: #1a0dab;
@@ -64,8 +66,11 @@
         <img src="sleeve.jpg" alt="Weekend Kicks Sleeve" class="sleeve">
         <div class="small-text">
             THE BONKS - WEEKEND KICKS (7´´ VINYL) 33RPM<br>
-            Bollmora Rekords. Released 2022
+            Bollmora Rekords. Recorded 2001. Released 2022.
         </div>
+        <a href="https://karlekochuppror.myshopify.com/products/the-bonks-weekend-kicks" class="buy-link">
+            available here
+        </a>
         <audio controls>
             <source src="weekend-kicks.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
@@ -105,9 +110,6 @@
                 Weekend kicks
             </p>
         </div>
-        <a href="https://karlekochuppror.myshopify.com/products/the-bonks-weekend-kicks" class="buy-link">
-            Buy the vinyl single at Bollmora Rekords
-        </a>
     </div>
 </body>
 </html>
