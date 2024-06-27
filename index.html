@@ -18,29 +18,35 @@
             align-items: center;
         }
         .sleeve {
-            width: 400px; /* Increase size to reduce white space */
-            height: 400px;
+            width: 350px; /* Adjusted size */
+            height: 350px;
             margin-bottom: 10px;
             object-fit: cover;
         }
         .small-text {
-            font-size: 12px;
+            font-size: 10px; /* Smaller font size */
             color: #555;
-            margin-bottom: 20px;
+            margin-bottom: 10px; /* Less margin below */
+            text-align: right; /* Right-aligned text */
+            width: 350px; /* Match the width of the sleeve image */
         }
         .lyrics {
             white-space: pre-wrap;
             background-color: #fff;
-            padding: 20px;
+            padding: 10px; /* Reduced padding */
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 300px;
+            width: 350px; /* Adjusted width */
             text-align: left;
-            font-size: 14px;
+            font-size: 12px; /* Smaller font size */
             line-height: 1.4;
         }
+        .lyrics h2 {
+            font-size: 14px;
+            margin: 0 0 10px 0; /* Less margin below the headline */
+        }
         audio {
-            margin-top: 20px;
+            margin: 10px 0; /* Less margin above and some below */
         }
         .buy-link {
             margin-top: 20px;
@@ -65,6 +71,7 @@
             Your browser does not support the audio element.
         </audio>
         <div class="lyrics">
+            <h2>Weekend Kicks</h2>
             <p>
                 Well the weekends up<br>
                 And I’m stone cold broke<br>
